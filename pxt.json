@@ -1,0 +1,24 @@
+{
+    "name": "bluetooth-pairing-pattern",
+    "version": "0.1.0",
+    "description": "Zeigt das individuelle Bluetooth-Pairing-Muster des Calliope mini auf dem Display an.",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "pairing.cpp",
+        "shims.d.ts",
+        "_locales/de/bluetooth-pairing-pattern-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
